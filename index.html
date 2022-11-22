@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <section class="app-container">
+  
+        <h1>To-Do List</h1>
+        
+        <div class="new-task-container box">
+        
+        <label for="new-task"></label>
+        <input type="text" id="new-task" placeholder="Please add a new task">
+          <button id="addTask">Add a new task</button>
+        
+        </div>
+        
+        <div class="todo-list box">
+        
+          <h1>Incomplete Tasks</h1>
+          <ul>
+            <li><input type="checkbox"><label>Ongoing Task 1</lable></li>
+            <li><input type="checkbox"><label>Ongoing Task 2</lable></li>
+            <li><input type="checkbox"><label>Ongoing Task 3</lable></li>
+          </ul>
+        
+        </div>
+        
+        <div class="complete-list box">
+          
+          <h1>Tasks Completed</h1>
+          <ul>
+            <li>Finished Task<button class="delete">Remove</button></li>
+          </ul>
+          
+        </div>
+        
+      </section>
+      <script src="main.js"></script>
+  </body>
+</html>
